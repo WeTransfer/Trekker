@@ -17,7 +17,6 @@
 		0C21A4E21E8017A50046DE41 /* PushNotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C21A4E11E8017A50046DE41 /* PushNotificationTests.swift */; };
 		0C21A4E41E801E0B0046DE41 /* SuperPropertiesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C21A4E31E801E0B0046DE41 /* SuperPropertiesTest.swift */; };
 		0C21A4E61E8022330046DE41 /* TimedEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C21A4E51E8022330046DE41 /* TimedEvents.swift */; };
-		0C25A1881BF0CC7000FA08B1 /* TrekkerUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C25A1871BF0CC7000FA08B1 /* TrekkerUserProfile.swift */; };
 		0C7FAD0E1BECBE8C0049C011 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7FAD0D1BECBE8C0049C011 /* AppDelegate.swift */; };
 		0C7FAD101BECBE8C0049C011 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7FAD0F1BECBE8C0049C011 /* ViewController.swift */; };
 		0C7FAD131BECBE8C0049C011 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7FAD111BECBE8C0049C011 /* Main.storyboard */; };
@@ -27,11 +26,12 @@
 		0C7FAD3C1BECBE9D0049C011 /* Trekker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7FAD321BECBE9D0049C011 /* Trekker.framework */; };
 		0C7FAD471BECBE9D0049C011 /* Trekker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7FAD321BECBE9D0049C011 /* Trekker.framework */; };
 		0C7FAD481BECBE9D0049C011 /* Trekker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7FAD321BECBE9D0049C011 /* Trekker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		0C7FAD511BECBEBF0049C011 /* Trekker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7FAD501BECBEBF0049C011 /* Trekker.swift */; };
-		0C7FAD531BECBECA0049C011 /* TrekkerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7FAD521BECBECA0049C011 /* TrekkerService.swift */; };
-		0C7FAD551BECBED60049C011 /* TrekkerServiceProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7FAD541BECBED60049C011 /* TrekkerServiceProtocols.swift */; };
-		0C7FAD5A1BECC1C50049C011 /* TrekkerDebugService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7FAD591BECC1C50049C011 /* TrekkerDebugService.swift */; };
-		0C7FAD601BECD9D70049C011 /* TrekkerEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7FAD5F1BECD9D70049C011 /* TrekkerEvent.swift */; };
+		50C940C52571520E00D9E5E3 /* TrekkerUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C940BF2571520E00D9E5E3 /* TrekkerUserProfile.swift */; };
+		50C940C62571520E00D9E5E3 /* TrekkerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C940C02571520E00D9E5E3 /* TrekkerService.swift */; };
+		50C940C72571520E00D9E5E3 /* Trekker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C940C12571520E00D9E5E3 /* Trekker.swift */; };
+		50C940C82571520E00D9E5E3 /* TrekkerEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C940C22571520E00D9E5E3 /* TrekkerEvent.swift */; };
+		50C940C92571520E00D9E5E3 /* TrekkerServiceProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C940C32571520E00D9E5E3 /* TrekkerServiceProtocols.swift */; };
+		50C940CA2571520E00D9E5E3 /* TrekkerDebugService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C940C42571520E00D9E5E3 /* TrekkerDebugService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,7 +83,6 @@
 		0C21A4E11E8017A50046DE41 /* PushNotificationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationTests.swift; sourceTree = "<group>"; };
 		0C21A4E31E801E0B0046DE41 /* SuperPropertiesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperPropertiesTest.swift; sourceTree = "<group>"; };
 		0C21A4E51E8022330046DE41 /* TimedEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimedEvents.swift; sourceTree = "<group>"; };
-		0C25A1871BF0CC7000FA08B1 /* TrekkerUserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrekkerUserProfile.swift; sourceTree = "<group>"; };
 		0C7FAD0A1BECBE8C0049C011 /* TrekkerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrekkerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7FAD0D1BECBE8C0049C011 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C7FAD0F1BECBE8C0049C011 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -96,11 +95,12 @@
 		0C7FAD361BECBE9D0049C011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C7FAD3B1BECBE9D0049C011 /* TrekkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrekkerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7FAD441BECBE9D0049C011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C7FAD501BECBEBF0049C011 /* Trekker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trekker.swift; sourceTree = "<group>"; };
-		0C7FAD521BECBECA0049C011 /* TrekkerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrekkerService.swift; sourceTree = "<group>"; };
-		0C7FAD541BECBED60049C011 /* TrekkerServiceProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrekkerServiceProtocols.swift; sourceTree = "<group>"; };
-		0C7FAD591BECC1C50049C011 /* TrekkerDebugService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrekkerDebugService.swift; sourceTree = "<group>"; };
-		0C7FAD5F1BECD9D70049C011 /* TrekkerEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrekkerEvent.swift; sourceTree = "<group>"; };
+		50C940BF2571520E00D9E5E3 /* TrekkerUserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrekkerUserProfile.swift; sourceTree = "<group>"; };
+		50C940C02571520E00D9E5E3 /* TrekkerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrekkerService.swift; sourceTree = "<group>"; };
+		50C940C12571520E00D9E5E3 /* Trekker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trekker.swift; sourceTree = "<group>"; };
+		50C940C22571520E00D9E5E3 /* TrekkerEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrekkerEvent.swift; sourceTree = "<group>"; };
+		50C940C32571520E00D9E5E3 /* TrekkerServiceProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrekkerServiceProtocols.swift; sourceTree = "<group>"; };
+		50C940C42571520E00D9E5E3 /* TrekkerDebugService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrekkerDebugService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,14 +191,9 @@
 		0C7FAD331BECBE9D0049C011 /* Trekker */ = {
 			isa = PBXGroup;
 			children = (
+				50C940BE2571520E00D9E5E3 /* Trekker */,
 				0C7FAD341BECBE9D0049C011 /* Trekker.h */,
 				0C7FAD361BECBE9D0049C011 /* Info.plist */,
-				0C7FAD501BECBEBF0049C011 /* Trekker.swift */,
-				0C7FAD521BECBECA0049C011 /* TrekkerService.swift */,
-				0C7FAD541BECBED60049C011 /* TrekkerServiceProtocols.swift */,
-				0C7FAD591BECC1C50049C011 /* TrekkerDebugService.swift */,
-				0C7FAD5F1BECD9D70049C011 /* TrekkerEvent.swift */,
-				0C25A1871BF0CC7000FA08B1 /* TrekkerUserProfile.swift */,
 			);
 			path = Trekker;
 			sourceTree = "<group>";
@@ -219,6 +214,20 @@
 			);
 			path = TrekkerTests;
 			sourceTree = "<group>";
+		};
+		50C940BE2571520E00D9E5E3 /* Trekker */ = {
+			isa = PBXGroup;
+			children = (
+				50C940BF2571520E00D9E5E3 /* TrekkerUserProfile.swift */,
+				50C940C02571520E00D9E5E3 /* TrekkerService.swift */,
+				50C940C12571520E00D9E5E3 /* Trekker.swift */,
+				50C940C22571520E00D9E5E3 /* TrekkerEvent.swift */,
+				50C940C32571520E00D9E5E3 /* TrekkerServiceProtocols.swift */,
+				50C940C42571520E00D9E5E3 /* TrekkerDebugService.swift */,
+			);
+			name = Trekker;
+			path = Sources/Trekker;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -377,12 +386,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C7FAD551BECBED60049C011 /* TrekkerServiceProtocols.swift in Sources */,
-				0C25A1881BF0CC7000FA08B1 /* TrekkerUserProfile.swift in Sources */,
-				0C7FAD601BECD9D70049C011 /* TrekkerEvent.swift in Sources */,
-				0C7FAD531BECBECA0049C011 /* TrekkerService.swift in Sources */,
-				0C7FAD5A1BECC1C50049C011 /* TrekkerDebugService.swift in Sources */,
-				0C7FAD511BECBEBF0049C011 /* Trekker.swift in Sources */,
+				50C940C92571520E00D9E5E3 /* TrekkerServiceProtocols.swift in Sources */,
+				50C940C62571520E00D9E5E3 /* TrekkerService.swift in Sources */,
+				50C940C72571520E00D9E5E3 /* Trekker.swift in Sources */,
+				50C940C52571520E00D9E5E3 /* TrekkerUserProfile.swift in Sources */,
+				50C940CA2571520E00D9E5E3 /* TrekkerDebugService.swift in Sources */,
+				50C940C82571520E00D9E5E3 /* TrekkerEvent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,6 +642,7 @@
 		0C7FAD4E1BECBE9D0049C011 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TrekkerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.awkward.trekker-tests";
@@ -644,6 +654,7 @@
 		0C7FAD4F1BECBE9D0049C011 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TrekkerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.awkward.trekker-tests";
