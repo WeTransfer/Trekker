@@ -7,7 +7,16 @@
 //
 
 import Foundation
+
+#if !os(macOS)
 import UIKit
+
+typealias Application = UIApplication
+#else
+import AppKit
+
+typealias Application = NSApplication
+#endif
 
 /// Trekker is a simple wrapper to send the same event to multiple analytics services. 
 /// Use the default tracker on Trekker to get started.
@@ -66,9 +75,11 @@ public final class Trekker: NSObject {
         
         if self.automaticStateUpdatingEnabled {
             self.start()
-            NotificationCenter.default.addObserver(self, selector: #selector(Trekker.pauseTracking(_:)), name: UIApplication.didEnterBackgroundNotification, object: nil)
-            NotificationCenter.default.addObserver(self, selector: #selector(Trekker.resumeTracking(_:)), name: UIApplication.didBecomeActiveNotification, object: nil)
-            NotificationCenter.default.addObserver(self, selector: #selector(Trekker.endTracking(_:)), name: UIApplication.willTerminateNotification, object: nil)
+            #if !os(macOS)
+            NotificationCenter.default.addObserver(self, selector: #selector(Trekker.pauseTracking(_:)), name: Application.didEnterBackgroundNotification, object: nil)
+            #endif
+            NotificationCenter.default.addObserver(self, selector: #selector(Trekker.resumeTracking(_:)), name: Application.didBecomeActiveNotification, object: nil)
+            NotificationCenter.default.addObserver(self, selector: #selector(Trekker.endTracking(_:)), name: Application.willTerminateNotification, object: nil)
         }
     }
 
